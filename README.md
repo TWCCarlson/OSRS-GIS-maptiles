@@ -7,6 +7,6 @@ This repository serves as a raw data source for usage in Leaflet or similar GIS 
 as the source URL for Leaflet's `tileLayer` to access the tiles. Zoom levels 1-11 are provided.
 
 # Method
-Files were generated using PIL for image rescaling (quality is preserved) and `pyvips`'s `dzsave` (for speed, gdal2tiles.py works but is excruciatingly slow).
+Files were generated using `PIL` for image rescaling (quality is preserved excellently) and `pyvips`'s `dzsave` (for speed, gdal2tiles.py works but is excruciatingly slow).
 
 The original image used comes from exports from the Runelite cache, see the [World Map Replication Project](https://github.com/MESLewis/runelite/tree/world-map-replication-project). The native zoom level of this image is 8.
